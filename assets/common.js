@@ -9,20 +9,20 @@ const TEACHER = {
 
 // تعريف الألعاب المتاحة
 const GAME_DEFS = {
-    mcq:     { title: "الاختيار من متعدد", sub: "15 سؤالًا لاختبار معلوماتك", icon: "fa-list-check", color: "from-blue-500 to-blue-600" },
-    bubbles: { title: "الفقاعات المتساقطة", sub: "المس الفقاعة الصحيحة", icon: "fa-droplet", color: "from-cyan-500 to-cyan-600" },
-    shoot:   { title: "التنشين المتحرك", sub: "صِد الهدف الصحيح المتحرك", icon: "fa-bullseye", color: "from-red-500 to-red-600" },
-    tug:     { title: "شد الحبل", sub: "أجب صح واسحب الحبل لفريقك", icon: "fa-people-pulling", color: "from-amber-500 to-orange-600" },
-    goal:    { title: "تسجيل الأهداف", sub: "اختر الزاوية الصحيحة وسجّل", icon: "fa-futbol", color: "from-emerald-500 to-green-700" },
-    tf:      { title: "صح أم خطأ", sub: "حدد صحة العبارات", icon: "fa-check-double", color: "from-orange-500 to-orange-600" },
-    match:   { title: "لعبة التوصيل", sub: "اربط بين العبارة وما يناسبها", icon: "fa-link", color: "from-green-500 to-green-600" },
-    millionaire: { title: "من سيربح المليون؟", sub: "إجابة خاطئة واحدة تُنهي المسابقة!", icon: "fa-trophy", color: "from-purple-600 to-indigo-700" },
-    fill:    { title: "أكمل الفراغ", sub: "اختر ما يكمل العبارة", icon: "fa-puzzle-piece", color: "from-purple-500 to-purple-600" }
+    mcq:     { title: "الاختيار من متعدد", sub: "15 سؤالًا لاختبار معلوماتك", icon: "fa-list-check", color: "grad-mcq" },
+    bubbles: { title: "الفقاعات المتساقطة", sub: "المس الفقاعة الصحيحة", icon: "fa-droplet", color: "grad-bubbles" },
+    shoot:   { title: "التنشين المتحرك", sub: "صِد الهدف الصحيح المتحرك", icon: "fa-bullseye", color: "grad-shoot" },
+    tug:     { title: "شد الحبل", sub: "أجب صح واسحب الحبل لفريقك", icon: "fa-people-pulling", color: "grad-tug" },
+    goal:    { title: "تسجيل الأهداف", sub: "اختر الزاوية الصحيحة وسجّل", icon: "fa-futbol", color: "grad-goal" },
+    tf:      { title: "صح أم خطأ", sub: "حدد صحة العبارات", icon: "fa-check-double", color: "grad-tf" },
+    match:   { title: "لعبة التوصيل", sub: "اربط بين العبارة وما يناسبها", icon: "fa-link", color: "grad-match" },
+    millionaire: { title: "من سيربح المليون؟", sub: "إجابة خاطئة واحدة تُنهي المسابقة!", icon: "fa-trophy", color: "grad-mil" },
+    fill:    { title: "أكمل الفراغ", sub: "اختر ما يكمل العبارة", icon: "fa-puzzle-piece", color: "grad-fill" }
 };
 
 const LESSONS = {
     "1": {
-        title: "المثلثات", order: "الدرس الأول (٤-٤)", color: "from-orange-500 to-red-600", icon: "", iconText: "△",
+        title: "المثلثات", order: "الدرس الأول (٤-٤)", color: "grad-l1", icon: "", iconText: "△",
         games: ["goal", "tug", "tf", "match", "millionaire", "shoot"],
         tips: [
             "المثلث شكل مستوٍ له ثلاثة أضلاع وثلاث زوايا.",
@@ -34,7 +34,7 @@ const LESSONS = {
         ]
     },
     "2": {
-        title: "الأشكال الرباعية", order: "الدرس الثاني (٤-٥)", color: "from-sky-600 to-indigo-700", icon: "", iconText: "▱",
+        title: "الأشكال الرباعية", order: "الدرس الثاني (٤-٥)", color: "grad-l2", icon: "", iconText: "▱",
         games: ["goal", "tug", "tf", "match", "millionaire", "shoot"],
         tips: [
             "الشكل الرباعي شكل مستوٍ له أربعة أضلاع وأربع زوايا داخلية.",

@@ -237,3 +237,40 @@ body { font-family: 'Tajawal', sans-serif; background: linear-gradient(180deg,#e
   .m-fig svg { height: 62px; }
 }
 .mil-question { flex-direction: column; }
+
+/* ===== ألوان واضحة (تباين عالٍ بين الخط والخلفية) ===== */
+/* بطاقات الدروس والألعاب: خلفيات داكنة ثابتة والخط أبيض */
+.grad-l1     { background-image: linear-gradient(to left, #c2410c, #991b1b) !important; }
+.grad-l2     { background-image: linear-gradient(to left, #1d4ed8, #3730a3) !important; }
+.grad-goal   { background-image: linear-gradient(to right, #047857, #065f46) !important; }
+.grad-tug    { background-image: linear-gradient(to right, #b45309, #9a3412) !important; }
+.grad-tf     { background-image: linear-gradient(to right, #be123c, #9f1239) !important; }
+.grad-match  { background-image: linear-gradient(to right, #0f766e, #115e59) !important; }
+.grad-mil    { background-image: linear-gradient(to right, #6d28d9, #4338ca) !important; }
+.grad-shoot  { background-image: linear-gradient(to right, #b91c1c, #7f1d1d) !important; }
+.grad-mcq    { background-image: linear-gradient(to right, #1d4ed8, #1e40af) !important; }
+.grad-bubbles{ background-image: linear-gradient(to right, #0e7490, #155e75) !important; }
+.grad-fill   { background-image: linear-gradient(to right, #7e22ce, #6b21a8) !important; }
+.grad-l1, .grad-l2, .grad-goal, .grad-tug, .grad-tf, .grad-match, .grad-mil, .grad-shoot, .grad-mcq, .grad-bubbles, .grad-fill { color: #fff !important; }
+.grad-l1 .text-white\/80, .grad-l2 .text-white\/80 { color: #fff7ed !important; }
+.grad-l1 .text-white\/90, .grad-l2 .text-white\/90 { color: #ffffff !important; }
+
+/* نصوص ملونة على خلفية بيضاء */
+.text-yellow-600 { color: #a16207 !important; }
+.text-blue-500 { color: #1d4ed8 !important; }
+.text-green-600 { color: #15803d !important; }
+.text-gray-400 { color: #4b5563 !important; }
+.text-gray-500 { color: #4b5563 !important; }
+
+/* أزرار صح / خطأ */
+#screen-tf .bg-green-500 { background-color: #15803d !important; }
+#screen-tf .bg-green-500:hover { background-color: #166534 !important; }
+#screen-tf .bg-red-500 { background-color: #b91c1c !important; }
+#screen-tf .bg-red-500:hover { background-color: #991b1b !important; }
+/* من سيربح المليون + الشعار */
+.mil-ll { background: linear-gradient(160deg,#be123c,#c2410c) !important; }
+.mil-opt { background: linear-gradient(90deg,#1e3a8a,#3730a3) !important; color: #fff !important; }
+.mil-opt.final { background: linear-gradient(90deg,#b45309,#9a3412) !important; }
+.mil-opt.right { background: linear-gradient(90deg,#15803d,#166534) !important; }
+.mil-opt.wrong { background: linear-gradient(90deg,#b91c1c,#991b1b) !important; }
+.logo-badge { background: linear-gradient(135deg,#1e3a8a,#c2410c) !important; }
